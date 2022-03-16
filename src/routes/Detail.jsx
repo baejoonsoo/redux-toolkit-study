@@ -1,6 +1,6 @@
 import { connect } from "react-redux";
 import { useParams } from "react-router-dom";
-import { actionCreators } from "../store";
+import { remove } from "../store";
 
 const Detail = ({ toDos, deleteToDo }) => {
   const { id } = useParams();
@@ -24,7 +24,7 @@ const getStateToProps = (state) => {
 
 const getDispatchToProps = (dispatch) => {
   return {
-    deleteToDo: (id) => dispatch(actionCreators.deleteToDo(id)),
+    deleteToDo: (id) => dispatch(remove(id)),
   };
 };
 
