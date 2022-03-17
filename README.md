@@ -1,6 +1,6 @@
-# redux-study
+# redux-toolkit-study
 
-Learning vanilla-redux and react-redux
+Learning redux-toolkit
 
 https://github.com/baejoonsoo/redux-study
 <br>
